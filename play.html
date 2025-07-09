@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="it-IT">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>MiMusic 🎧 - La Tua Colonna Sonora</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header class="topbar">
+        <div class="logo">
+            <a href="#" aria-label="Home di MiMusic">MiMusic 🎧</a>
+        </div>
+        <div class="search-container">
+            <input type="text" id="busca" placeholder="Cosa vuoi ascoltare adesso?" aria-label="Cerca musica, artista o tema" />
+            <i class="fas fa-search search-icon"></i>
+        </div>
+        <div class="header-actions">
+            <button id="login-button" class="action-button">Accedi</button>
+            <button id="theme-toggle" class="action-button theme-toggle-button" aria-label="Alterna modalità scura/chiara">
+                <i class="fas fa-moon"></i>
+            </button>
+        </div>
+    </header>
+
+    <section class="genre-filters">
+        <button class="filter-button active" data-filter-type="genere" data-filter-value="Tutti">Tutti</button>
+        <button class="filter-button" data-filter-type="genere" data-filter-value="Rock">Rock</button>
+        <button class="filter-button" data-filter-type="genere" data-filter-value="Pop">Pop</button>
+        <button class="filter-button" data-filter-type="genere" data-filter-value="Elettronica">Elettronica</button>
+        <button class="filter-button" data-filter-type="genere" data-filter-value="Latino">Latino</button>
+        <button class="filter-button more-filters-toggle">Più...</button>
+    </section>
+
+    <main class="main-content">
+        <section class="hero-banner">
+            <img src="assets/banner_mockup.jpg" alt="Banner principale: Musica in Evidenza" class="banner-image"/>
+            <div class="banner-overlay">
+                <div class="banner-content">
+                    <h2>Scopri l'Armonia Perfetta</h2>
+                    <p>La tua colonna sonora per ogni momento.</p>
+                    <button class="banner-play-button"><i class="fas fa-play"></i> Ascolta Ora</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="content-section">
+            <div class="section-header">
+                <h2>Album Raccomandati</h2>
+                <a href="#" class="view-more-link" aria-label="Visualizza altri album">Vedi Altro <i class="fas fa-chevron-right"></i></a>
+            </div>
+            <div class="grid-container" id="lista-musicas">
+                </div>
+        </section>
+
+        <section class="content-section moments-section">
+            <div class="section-header">
+                <h2>Musica per i Tuoi Momenti</h2>
+                <a href="#" class="view-more-link" aria-label="Esplora altri momenti">Esplora <i class="fas fa-chevron-right"></i></a>
+            </div>
+            <div class="moments-grid" id="momenti-grid">
+                </div>
+        </section>
+
+        <section class="content-section top-hits-section">
+            <div class="section-header">
+                <h2>Le Più Ascoltate</h2>
+                <a href="#" class="view-more-link" aria-label="Visualizza più canzoni e artisti">Vedi Altro <i class="fas fa-chevron-right"></i></a>
+            </div>
+            <div class="top-hits-grid" id="top-hits-grid">
+                </div>
+        </section>
+
+        <section class="content-section playlists-section">
+            <div class="section-header">
+                <h2>Playlist Consigliate</h2>
+                <a href="#" class="view-more-link" aria-label="Visualizza più playlist">Vedi Altro <i class="fas fa-chevron-right"></i></a>
+            </div>
+            <div class="playlists-grid" id="playlists-grid">
+                </div>
+        </section>
+
+        <section class="content-section explore-genres-section">
+            <div class="section-header">
+                <h2>Esplora per Genere</h2>
+                <a href="#" class="view-more-link" aria-label="Visualizza tutti i generi">Tutti i Generi <i class="fas fa-chevron-right"></i></a>
+            </div>
+            <div class="all-genres-grid" id="all-genres-grid">
+                </div>
+        </section>
+
+        <section class="newsletter-section">
+            <h2>Resta aggiornato con le novità!</h2>
+            <p>Ricevi le migliori canzoni e gli aggiornamenti direttamente nella tua casella di posta.</p>
+            <form class="newsletter-form">
+                <input type="email" id="email-newsletter" placeholder="La tua migliore email qui..." required aria-label="Inserisci la tua email per la newsletter">
+                <button type="submit">Iscriviti</button>
+            </form>
+        </section>
+
+        <section class="comments-section">
+            <h2>Cosa pensi delle nostre musiche?</h2>
+            <div class="comment-form-container">
+                <textarea id="comment-text" placeholder="Scrivi qui il tuo commento..." rows="4" aria-label="Campo per scrivere un commento"></textarea>
+                <button id="submit-comment">Invia Commento</button>
+            </div>
+            <div id="comments-list">
+                <div class="comment-item">
+                    <p class="comment-author">Utente Anonimo <span class="comment-date">(08/07/2025)</span></p>
+                    <p class="comment-content">Fantastico sito! Le canzoni sono meravigliose.</p>
+                </div>
+                <div class="comment-item">
+                    <p class="comment-author">Appassionato di Musica <span class="comment-date">(07/07/2025)</span></p>
+                    <p class="comment-content">Adoro la selezione, complimenti agli artisti!</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="player-container">
+        <div class="current-song-info">
+            <p id="current-song-title">Nessuna canzone in riproduzione</p>
+            <p id="current-song-artist"></p>
+        </div>
+        <div class="player-controls-main">
+            <button id="prev-button" class="player-button" aria-label="Canzone precedente"><i class="fas fa-backward"></i></button>
+            <button id="play-pause-button" class="player-button" aria-label="Riproduci/Metti in pausa"><i class="fas fa-play"></i></button>
+            <button id="next-button" class="player-button" aria-label="Canzone successiva"><i class="fas fa-forward"></i></button>
+        </div>
+        <div class="progress-bar-container">
+            <span id="current-time">0:00</span>
+            <input type="range" id="progress-bar" value="0" step="0.1" min="0" max="100" aria-label="Barra di avanzamento della canzone">
+            <span id="total-time">0:00</span>
+        </div>
+        <div class="volume-control">
+            <i class="fas fa-volume-down" aria-hidden="true"></i>
+            <input type="range" id="volume-slider" value="100" min="0" max="100" aria-label="Controllo del volume">
+            <i class="fas fa-volume-up" aria-hidden="true"></i>
+        </div>
+        <audio id="audio-player"></audio>
+    </footer>
+
+    <footer class="site-info-footer">
+        <div class="footer-links">
+            <a href="#" aria-label="Leggi i Termini di uso">Termini di uso</a>
+            <a href="#" aria-label="Leggi la Politica sulla privacy">Politica sulla privacy</a>
+            <button class="language-selector" aria-label="Selettore lingua e tema">
+                <i class="fas fa-globe"></i> Italiano (Auto)
+            </button>
+        </div>
+        <p>&copy; 2025 MiMusic. Tutti i diritti riservati.</p>
+        <p class="made-in">Realizzato con ❤️ a Roma, Italia</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

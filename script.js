@@ -1,5 +1,5 @@
 // Dati fittizi delle musiche con più dettagli per i filtri
-const musicas =[
+const musicas = [
     {
         id: 1,
         titulo: `Me Porto Bonito`,
@@ -8,8 +8,8 @@ const musicas =[
         genere: ["Pop"],
         momenti: ["Festa"],
         imagem: `audio/imgs-tags/bad-bunny-Porto bonito.png`,
-        src: `audio/bad bunny-Porto bonito.mp3`,         
-        
+        src: `audio/bad bunny-Porto bonito.mp3`,
+
     },
     {
         id: 2,
@@ -18,109 +18,109 @@ const musicas =[
         album: `Nocturne`,
         genere: ["Chillout", "pop"],
         momenti: ["Relax", "In Casa"],
-        imagem: `audio/imgs-tags/billie-eilish.png`,      
-        src: `audio/billie eilish.mp3`,     
-        
-    },{
+        imagem: `audio/imgs-tags/billie-eilish.png`,
+        src: `audio/billie eilish.mp3`,
+
+    }, {
         id: 3,
         titulo: `Tití Me Preguntó`,
         artista: `Bad Bunny`,
         album: `Nocturne`,
         genere: ["Chillout", "pop"],
         momenti: ["Relax", "In Casa"],
-        imagem: `audio/imgs-tags/bad-bunny-Vip.jpg`,      
-        src: `audio/Bad Bunny - Tití Me Preguntó.mp3`,     
-        
-    },{
+        imagem: `audio/imgs-tags/bad-bunny-Vip.jpg`,
+        src: `audio/Bad Bunny - Tití Me Preguntó.mp3`,
+
+    }, {
         id: 4,
         titulo: `sheera`,
         artista: `Ed-Sheera`,
         album: `Nocturne`,
         genere: ["Chillout", "pop"],
         momenti: ["Relax", "In Casa"],
-        imagem: `audio/imgs-tags/Ed-Sheera.jpg`,      
-        src: `audio/ed-sheeran.mp3`,     
-        
-    },{
+        imagem: `audio/imgs-tags/Ed-Sheera.jpg`,
+        src: `audio/ed-sheeran.mp3`,
+
+    }, {
         id: 5,
         titulo: `Viajando Por El Mundo`,
         artista: `KAROL G`,
         album: `Nocturne`,
         genere: ["Chillout", "pop"],
         momenti: ["Relax", "In Casa"],
-        imagem: `audio/imgs-tags/Karol-G-Viajando Por El Mundo .jpg`,      
-        src: `audio/KAROL G, Manu Chao - Viajando Por El Mundo.mp3`,     
-        
-    },{
+        imagem: `audio/imgs-tags/Karol-G-Viajando Por El Mundo .jpg`,
+        src: `audio/KAROL G, Manu Chao - Viajando Por El Mundo.mp3`,
+
+    }, {
         id: 6,
         titulo: `Lana-del-Rey`,
         artista: `Lana del Rey`,
         album: `Nocturne`,
         genere: ["Chillout", "pop"],
         momenti: ["Relax", "In Casa"],
-        imagem: `audio/imgs-tags/Lana-del-Rey.jpg`,      
-        src: `audio/Lana-Del-Rey.mp3`,     
-        
-    },{
+        imagem: `audio/imgs-tags/Lana-del-Rey.jpg`,
+        src: `audio/Lana-Del-Rey.mp3`,
+
+    }, {
         id: 7,
         titulo: `KAROL G`,
         artista: `KAROL G`,
         album: `Nocturne`,
         genere: ["Chillout", "pop"],
         momenti: ["Relax", "In Casa"],
-        imagem: `audio/imgs-tags/karol-g.jpg`,      
-        src: `audio/Karol-g-latina.mp3`,     
-        
-    },{
+        imagem: `audio/imgs-tags/karol-g.jpg`,
+        src: `audio/Karol-g-latina.mp3`,
+
+    }, {
         id: 8,
         titulo: `MIke-Posner`,
         artista: `MIke-Posner`,
         album: `Nocturne`,
         genere: ["Chillout", "pop"],
         momenti: ["Relax", "In Casa"],
-        imagem: `audio/imgs-tags/Mike-Posner.jpg`,      
-        src: `audio/MIke-Posner.mp3`,     
-        
-    },{
+        imagem: `audio/imgs-tags/Mike-Posner.jpg`,
+        src: `audio/MIke-Posner.mp3`,
+
+    }, {
         id: 9,
         titulo: `Taylor-Swift`,
         artista: `Taylor-Swift`,
         album: `Nocturne`,
         genere: ["Chillout", "pop"],
         momenti: ["Relax", "In Casa"],
-        imagem: `audio/imgs-tags/Taylor-Swift.jpg`,      
-        src: `audio/taylor-swift.mp3`,     
-        
-    },{
+        imagem: `audio/imgs-tags/Taylor-Swift.jpg`,
+        src: `audio/taylor-swift.mp3`,
+
+    }, {
         id: 10,
         titulo: `Shawn Mendes`,
         artista: `Shawn Mendes`,
         album: `Nocturne`,
         genere: ["Chillout", "pop"],
         momenti: ["Relax", "In Casa"],
-        imagem: ``,      
-        src: `audio/Shawn Mendes - Treat You Better.mp3`,     
-        
-    },{
+        imagem: `audio/imgs-tags/Shown-Mendes.jpg`,
+        src: `audio/Shawn Mendes - Treat You Better.mp3`,
+
+    }, {
         id: 11,
         titulo: `BIRDS OF A FEATHER`,
         artista: `billie eilish`,
         album: `Nocturne`,
         genere: ["Chillout", "pop"],
         momenti: ["Relax", "In Casa"],
-        imagem: `audio/imgs-tags/Walkerworld-barcelana.jpg`,      
-        src: `audio/alan-walker-ina-wroldsen-barcelona.mp3`,     
-        
-    },{
+        imagem: `audio/imgs-tags/Walkerworld-barcelana.jpg`,
+        src: `audio/alan-walker-ina-wroldsen-barcelona.mp3`,
+
+    }, {
         id: 12,
         titulo: `BIRDS OF A FEATHER`,
         artista: `billie eilish`,
         album: `Nocturne`,
         genere: ["Chillout", "pop"],
         momenti: ["Relax", "In Casa"],
-        imagem: `audio/imgs-tags/alan-walker.jpg`,      
-        src: `audio/musica1-Alan Walker - Faded.mp3`,     
-        
+        imagem: `audio/imgs-tags/alan-walker.jpg`,
+        src: `audio/musica1-Alan Walker - Faded.mp3`,
+
     },]
 
 // Dati fittizi per playlist e hit più ascoltate
@@ -215,8 +215,9 @@ function renderizzaSchedeMusicali(listaMusicheDaRenderizzare) {
         const schedaMusicale = document.createElement("div");
         schedaMusicale.className = "music-card";
         schedaMusicale.style.animationDelay = `${indice * 0.05}s`;
+        console.log(`Tentando carregar imagem: ${musica.imagem}`);
         schedaMusicale.innerHTML = `
-            <img src="${musica.immagine}" alt="Copertina di ${musica.titulo}" />
+            <img src="${musica.imagem}" alt="Copertina di ${musica.titulo}" />
             <div class="info">
                 <h3>${musica.titulo}</h3>
                 <p>${musica.artista} - ${musica.album}</p>
@@ -248,7 +249,7 @@ function renderizzaMomenti() {
         const momentCard = document.createElement('div');
         momentCard.className = 'moment-card';
         if (filtroAttivoMomento === momento.nome) {
-             momentCard.classList.add('active'); // Potenziale classe active per evidenziare
+            momentCard.classList.add('active'); // Potenziale classe active per evidenziare
         }
         momentCard.innerHTML = `
             <i class="${momento.icona}"></i>
@@ -327,6 +328,7 @@ function riproduciCanzoneSelezionata(musica, indice) {
         }
     } else {
         // Altrimenti, carica e riproduci la nuova canzone
+        console.log(`Tentando carregar áudio: ${musica.src}`);
         audioPlayer.src = musica.src;
         currentPlayingIndex = indice;
         audioPlayer.play();

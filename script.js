@@ -1,31 +1,136 @@
 // Dati fittizi delle musiche con più dettagli per i filtri
-const musicas = Array.from({ length: 30 }, (_, i) => ({ // Aumentato a 30 per più varietà
-    id: i + 1,
-    titulo: `Melodia Stellare ${i + 1}`,
-    artista: `Cosmic Sound ${i % 5 + 1}`,
-    album: `Viaggi Interstellari ${i % 3 === 0 ? 'Vol. I' : i % 3 === 1 ? 'Vol. II' : 'Vol. III'}`,
-    genere: i % 4 === 0 ? ["Pop", "Elettronica"] :
-            i % 4 === 1 ? ["Rock", "Alternativo"] :
-            i % 4 === 2 ? ["Latino", "Salsa"] :
-            ["Chillout", "Ambient", "Jazz"],
-    momenti: i % 5 === 0 ? ["Relax", "In Casa"] :
-             i % 5 === 1 ? ["Festa", "Danza"] :
-             i % 5 === 2 ? ["Studio", "Lavoro"] :
-             i % 5 === 3 ? ["Viaggio", "Nostalgia"] :
-             ["Allenamento", "Energia"],
-    immagine: `assets/cover${(i % 5) + 1}.jpg`,
-    src: `assets/music${(i % 3) + 1}.mp3`,
-    descrizione: `Questa è la descrizione dettagliata della Melodia Stellare ${i + 1}. Un'esperienza sonora unica che ti porterà lontano!`
-}));
+const musicas =[
+    {
+        id: 1,
+        titulo: `Me Porto Bonito`,
+        artista: `Bad Bunny `,
+        album: `O Início`,
+        genere: ["Pop"],
+        momenti: ["Festa"],
+        imagem: `audio/imgs-tags/bad-bunny-Porto bonito.png`,
+        src: `audio/bad bunny-Porto bonito.mp3`,         
+        
+    },
+    {
+        id: 2,
+        titulo: `BIRDS OF A FEATHER`,
+        artista: `billie eilish`,
+        album: `Nocturne`,
+        genere: ["Chillout", "pop"],
+        momenti: ["Relax", "In Casa"],
+        imagem: `audio/imgs-tags/billie-eilish.png`,      
+        src: `audio/billie eilish.mp3`,     
+        
+    },{
+        id: 3,
+        titulo: `Tití Me Preguntó`,
+        artista: `Bad Bunny`,
+        album: `Nocturne`,
+        genere: ["Chillout", "pop"],
+        momenti: ["Relax", "In Casa"],
+        imagem: `audio/imgs-tags/bad-bunny-Vip.jpg`,      
+        src: `audio/Bad Bunny - Tití Me Preguntó .mp3`,     
+        
+    },{
+        id: 4,
+        titulo: `BIRDS OF A FEATHER`,
+        artista: `billie eilish`,
+        album: `Nocturne`,
+        genere: ["Chillout", "pop"],
+        momenti: ["Relax", "In Casa"],
+        imagem: ``,      
+        src: ``,     
+        
+    },{
+        id: 5,
+        titulo: `BIRDS OF A FEATHER`,
+        artista: `billie eilish`,
+        album: `Nocturne`,
+        genere: ["Chillout", "pop"],
+        momenti: ["Relax", "In Casa"],
+        imagem: `audio/imgs-tags/billie-eilish.png`,      
+        src: `audio/billie eilish.mp3`,     
+        
+    },{
+        id: 6,
+        titulo: `BIRDS OF A FEATHER`,
+        artista: `billie eilish`,
+        album: `Nocturne`,
+        genere: ["Chillout", "pop"],
+        momenti: ["Relax", "In Casa"],
+        imagem: `audio/imgs-tags/billie-eilish.png`,      
+        src: `audio/billie eilish.mp3`,     
+        
+    },{
+        id: 7,
+        titulo: `BIRDS OF A FEATHER`,
+        artista: `billie eilish`,
+        album: `Nocturne`,
+        genere: ["Chillout", "pop"],
+        momenti: ["Relax", "In Casa"],
+        imagem: `audio/imgs-tags/billie-eilish.png`,      
+        src: `audio/billie eilish.mp3`,     
+        
+    },{
+        id: 8,
+        titulo: `BIRDS OF A FEATHER`,
+        artista: `billie eilish`,
+        album: `Nocturne`,
+        genere: ["Chillout", "pop"],
+        momenti: ["Relax", "In Casa"],
+        imagem: `audio/imgs-tags/billie-eilish.png`,      
+        src: `audio/billie eilish.mp3`,     
+        
+    },{
+        id: 9,
+        titulo: `BIRDS OF A FEATHER`,
+        artista: `billie eilish`,
+        album: `Nocturne`,
+        genere: ["Chillout", "pop"],
+        momenti: ["Relax", "In Casa"],
+        imagem: `audio/imgs-tags/billie-eilish.png`,      
+        src: `audio/billie eilish.mp3`,     
+        
+    },{
+        id: 10,
+        titulo: `BIRDS OF A FEATHER`,
+        artista: `billie eilish`,
+        album: `Nocturne`,
+        genere: ["Chillout", "pop"],
+        momenti: ["Relax", "In Casa"],
+        imagem: `audio/imgs-tags/billie-eilish.png`,      
+        src: `audio/billie eilish.mp3`,     
+        
+    },{
+        id: 11,
+        titulo: `BIRDS OF A FEATHER`,
+        artista: `billie eilish`,
+        album: `Nocturne`,
+        genere: ["Chillout", "pop"],
+        momenti: ["Relax", "In Casa"],
+        imagem: `audio/imgs-tags/billie-eilish.png`,      
+        src: `audio/billie eilish.mp3`,     
+        
+    },{
+        id: 12,
+        titulo: `BIRDS OF A FEATHER`,
+        artista: `billie eilish`,
+        album: `Nocturne`,
+        genere: ["Chillout", "pop"],
+        momenti: ["Relax", "In Casa"],
+        imagem: `audio/imgs-tags/billie-eilish.png`,      
+        src: `audio/billie eilish.mp3`,     
+        
+    },]
 
 // Dati fittizi per playlist e hit più ascoltate
 const playlistConsigliate = [
-    { id: 1, titolo: "Hits del Momento 2025", immagine: "assets/playlist_hit.jpg" },
-    { id: 2, titolo: "Relax Totale", immagine: "assets/playlist_relax.jpg" },
-    { id: 3, titolo: "Energia per Allenamento", immagine: "assets/playlist_workout.jpg" },
-    { id: 4, titolo: "Viaggio nella Memoria", immagine: "assets/playlist_travel.jpg" },
-    { id: 5, titolo: "Pop Italiano", immagine: "assets/playlist_italianpop.jpg" },
-    { id: 6, titolo: "Soundtrack Epiche", immagine: "assets/playlist_soundtrack.jpg" },
+    { id: 1, titolo: "Hits del Momento 2025", immagine: "img/imgs-hits/bad-bunny-new-album.jpg" },
+    { id: 2, titolo: "Relax Totale", immagine: "img/imgs-hits/Billie-Eilish.jpg" },
+    { id: 3, titolo: "Energia per Allenamento", immagine: "img/imgs-hits/ed-sheeran.jpg" },
+    { id: 4, titolo: "Viaggio nella Memoria", immagine: "img/imgs-hits/bts.jpg" },
+    { id: 5, titolo: "Pop ", immagine: "img/imgs-hits/taylor-swift.jpg" },
+    { id: 6, titolo: "Soundtrack Epiche", immagine: "img/imgs-hits/the-week.jpg" },
 ];
 
 const topHits = [ // Usiamo le musicas esistenti per le top hit

@@ -29,77 +29,77 @@ const musicas =[
         genere: ["Chillout", "pop"],
         momenti: ["Relax", "In Casa"],
         imagem: `audio/imgs-tags/bad-bunny-Vip.jpg`,      
-        src: `audio/Bad Bunny - Tití Me Preguntó .mp3`,     
+        src: `audio/Bad Bunny - Tití Me Preguntó.mp3`,     
         
     },{
         id: 4,
-        titulo: `BIRDS OF A FEATHER`,
-        artista: `billie eilish`,
+        titulo: `sheera`,
+        artista: `Ed-Sheera`,
+        album: `Nocturne`,
+        genere: ["Chillout", "pop"],
+        momenti: ["Relax", "In Casa"],
+        imagem: `audio/imgs-tags/Ed-Sheera.jpg`,      
+        src: `audio/ed-sheeran.mp3`,     
+        
+    },{
+        id: 5,
+        titulo: `Viajando Por El Mundo`,
+        artista: `KAROL G`,
+        album: `Nocturne`,
+        genere: ["Chillout", "pop"],
+        momenti: ["Relax", "In Casa"],
+        imagem: `audio/imgs-tags/Karol-G-Viajando Por El Mundo .jpg`,      
+        src: `audio/KAROL G, Manu Chao - Viajando Por El Mundo.mp3`,     
+        
+    },{
+        id: 6,
+        titulo: `Lana-del-Rey`,
+        artista: `Lana del Rey`,
+        album: `Nocturne`,
+        genere: ["Chillout", "pop"],
+        momenti: ["Relax", "In Casa"],
+        imagem: `audio/imgs-tags/Lana-del-Rey.jpg`,      
+        src: `audio/Lana-Del-Rey.mp3`,     
+        
+    },{
+        id: 7,
+        titulo: `KAROL G`,
+        artista: `KAROL G`,
+        album: `Nocturne`,
+        genere: ["Chillout", "pop"],
+        momenti: ["Relax", "In Casa"],
+        imagem: `audio/imgs-tags/karol-g.jpg`,      
+        src: `audio/Karol-g-latina.mp3`,     
+        
+    },{
+        id: 8,
+        titulo: `MIke-Posner`,
+        artista: `MIke-Posner`,
+        album: `Nocturne`,
+        genere: ["Chillout", "pop"],
+        momenti: ["Relax", "In Casa"],
+        imagem: `audio/imgs-tags/Mike-Posner.jpg`,      
+        src: `audio/MIke-Posner.mp3`,     
+        
+    },{
+        id: 9,
+        titulo: `Taylor-Swift`,
+        artista: `Taylor-Swift`,
+        album: `Nocturne`,
+        genere: ["Chillout", "pop"],
+        momenti: ["Relax", "In Casa"],
+        imagem: `audio/imgs-tags/Taylor-Swift.jpg`,      
+        src: `audio/taylor-swift.mp3`,     
+        
+    },{
+        id: 10,
+        titulo: `Shawn Mendes`,
+        artista: `Shawn Mendes`,
         album: `Nocturne`,
         genere: ["Chillout", "pop"],
         momenti: ["Relax", "In Casa"],
         imagem: ``,      
-        src: ``,     
-        
-    },{
-        id: 5,
-        titulo: `BIRDS OF A FEATHER`,
-        artista: `billie eilish`,
-        album: `Nocturne`,
-        genere: ["Chillout", "pop"],
-        momenti: ["Relax", "In Casa"],
-        imagem: `audio/imgs-tags/billie-eilish.png`,      
-        src: `audio/billie eilish.mp3`,     
-        
-    },{
-        id: 6,
-        titulo: `BIRDS OF A FEATHER`,
-        artista: `billie eilish`,
-        album: `Nocturne`,
-        genere: ["Chillout", "pop"],
-        momenti: ["Relax", "In Casa"],
-        imagem: `audio/imgs-tags/billie-eilish.png`,      
-        src: `audio/billie eilish.mp3`,     
-        
-    },{
-        id: 7,
-        titulo: `BIRDS OF A FEATHER`,
-        artista: `billie eilish`,
-        album: `Nocturne`,
-        genere: ["Chillout", "pop"],
-        momenti: ["Relax", "In Casa"],
-        imagem: `audio/imgs-tags/billie-eilish.png`,      
-        src: `audio/billie eilish.mp3`,     
-        
-    },{
-        id: 8,
-        titulo: `BIRDS OF A FEATHER`,
-        artista: `billie eilish`,
-        album: `Nocturne`,
-        genere: ["Chillout", "pop"],
-        momenti: ["Relax", "In Casa"],
-        imagem: `audio/imgs-tags/billie-eilish.png`,      
-        src: `audio/billie eilish.mp3`,     
-        
-    },{
-        id: 9,
-        titulo: `BIRDS OF A FEATHER`,
-        artista: `billie eilish`,
-        album: `Nocturne`,
-        genere: ["Chillout", "pop"],
-        momenti: ["Relax", "In Casa"],
-        imagem: `audio/imgs-tags/billie-eilish.png`,      
-        src: `audio/billie eilish.mp3`,     
-        
-    },{
-        id: 10,
-        titulo: `BIRDS OF A FEATHER`,
-        artista: `billie eilish`,
-        album: `Nocturne`,
-        genere: ["Chillout", "pop"],
-        momenti: ["Relax", "In Casa"],
-        imagem: `audio/imgs-tags/billie-eilish.png`,      
-        src: `audio/billie eilish.mp3`,     
+        src: `audio/Shawn Mendes - Treat You Better.mp3`,     
         
     },{
         id: 11,
@@ -108,8 +108,8 @@ const musicas =[
         album: `Nocturne`,
         genere: ["Chillout", "pop"],
         momenti: ["Relax", "In Casa"],
-        imagem: `audio/imgs-tags/billie-eilish.png`,      
-        src: `audio/billie eilish.mp3`,     
+        imagem: `audio/imgs-tags/Walkerworld-barcelana.jpg`,      
+        src: `audio/alan-walker-ina-wroldsen-barcelona.mp3`,     
         
     },{
         id: 12,
@@ -118,8 +118,8 @@ const musicas =[
         album: `Nocturne`,
         genere: ["Chillout", "pop"],
         momenti: ["Relax", "In Casa"],
-        imagem: `audio/imgs-tags/billie-eilish.png`,      
-        src: `audio/billie eilish.mp3`,     
+        imagem: `audio/imgs-tags/alan-walker.jpg`,      
+        src: `audio/musica1-Alan Walker - Faded.mp3`,     
         
     },]
 
